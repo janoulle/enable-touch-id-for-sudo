@@ -1,0 +1,7 @@
+interface:
+  display_name: "Enable Touch ID for sudo"
+  short_description: "Safely manage biometric sudo on macOS"
+  default_prompt: "Use $enable-touch-id-for-sudo to audit and safely enable Touch ID authentication for sudo on this Mac."
+
+policy:
+  allow_implicit_invocation: true
